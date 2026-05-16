@@ -133,6 +133,7 @@ main {
     background-color: var(--color-secondary);
     padding: 60px;
     gap: 24px;
+    border-bottom: 0.7px solid var(--color-neutral-white);
 }
 
 .upgrade-details {
@@ -160,3 +161,88 @@ main {
     font-weight: var(--font-weight-body);
     text-align: center;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 126px;
+    padding: 80px 0;
+    background-color: var(--color-secondary);
+}
+
+.footer-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    font-family: var(--font-family-primary);
+}
+
+.footer-details ul {
+    list-style: none;
+}
+
+.footer-details h2 {
+    color: var(--color-neutral-white);
+    font-weight: var(--font-weight-button);
+    font-size: var(--font-size-button);
+    margin-bottom: 20px;
+}
+
+.footer-details ul li {
+    color: var(--color-neutral-white);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    padding-bottom: 8px;
+}
+
+.footer-subscription {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 385px;
+}
+
+.footer-subscription h2 {
+    color: var(--color-neutral-white);
+    font-weight: var(--font-weight-button);
+    font-size: var(--font-size-button);
+    width: 198px;
+}
+
+.footer-subscription form {
+    display: flex;
+    align-items: center;
+    border-bottom: 0.7px solid #4D4D4D; 
+    padding-bottom: 16px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-subscription input {
+  background-color: transparent;
+  padding: 10px 0;
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-body); 
+}
+
+.footer-subscription input::placeholder {
+    color: var(--color-neutral-white);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-size-body);
+}
+
+.footer-subscription button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 40px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.footer-subscription img {
+    width: 12px;
+}
+
