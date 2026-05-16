@@ -201,6 +201,7 @@ footer {
     flex-direction: column;
     gap: 20px;
     width: 385px;
+    margin-left: 126px;
 }
 
 .footer-subscription h2 {
@@ -222,8 +223,6 @@ footer {
 .footer-subscription input {
   background-color: transparent;
   padding: 10px 0;
-  font-size: var(--font-size-body);
-  font-weight: var(--font-weight-body); 
 }
 
 .footer-subscription input::placeholder {
