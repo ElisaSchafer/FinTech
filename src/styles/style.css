@@ -90,36 +90,37 @@ main {
     color: var(--color-neutral-white);
 }
 
+
 .container-financial {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 60px;
+    padding: 60px 0;
 }
 
 .financial-service {
     display: flex;
-    gap: 100px; 
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }
 
 
-.financial-service h2 {
-    font-size: 40px;
-    color: var(--color-secondary);
-    margin-bottom: 20px;
-    font-family: var(--font-family-primary);
+.financial-description h2 {
     font-size: var(--font-size-h2);
     font-weight: var(--font-weight-h2);
+    color: var(--color-secondary);
+    font-family: var(--font-family-primary);
+    margin-bottom: 30px;
+    width: 443px;
 }
 
-.financial-service h2 span {
+.financial-description h2 span {
     color: var(--color-primary);
 }
 
-.financial-service p {
-    color: var(--color-secondary);
-    font-family: var(--font-family-primary);
-    font-size: var(--font-weight-body);
+.financial-description p {
+    font-size: var(--font-size-body);
     font-weight: var(--font-weight-body);
-    
+    font-family: var(--font-family-primary);
+    width: 603px;
+    margin-bottom: 30px;
+    color: var(--color-secondary);
 }
